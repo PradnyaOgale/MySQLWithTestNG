@@ -30,7 +30,7 @@ public class Testcases extends BaseSetup {
 
 	@Test
 	public void verifyInsertCommand() throws SQLException {
-		String s = "insert into student_details values(11,'Raju',78,'Mumbai')";
+		String s = "insert into student_details values(12,'Raju',78,'Mumbai')";
 		stmt.execute(s);
 	}
 }
